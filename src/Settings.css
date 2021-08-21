@@ -1,0 +1,36 @@
+.setting-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border: 1px solid black;
+  align-items: center;
+  align-content: flex-start;
+  justify-content: space-around;
+  color: white;
+}
+
+.settingRow{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  transition: background-color 0.2s;
+}
+
+.settingRow:hover{
+  background-color: #262626;
+}
+
+.settingRow label {
+  width: 100%;
+  display: inherit;
+  justify-content: inherit;
+}
+
+.userProfile {
+  border-bottom: 1px white solid;
+  width: 100%;
+  display: flex;
+  padding: 0px 0px 10px 0px;
+  margin: 5px;
+}
